@@ -1,0 +1,18 @@
+{
+  "name": "maksur-analytics",
+  "version": "1.0.0",
+  "description": "Analytics portal for sensor systems",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "electron ."
+  },
+  "keywords": [
+    "chart.js"
+  ],
+  "author": "Neeraj Joshi",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^2.0.9"
+  }
+}
