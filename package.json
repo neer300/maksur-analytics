@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "chart.js": "^2.7.2",
-    "chartjs-plugin-streaming": "^1.6.1"
+    "chartjs-plugin-streaming": "^1.6.1",
+    "csv-parse": "^3.0.0"
   }
 }

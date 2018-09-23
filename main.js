@@ -1,4 +1,5 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow } =  require('electron');
+
 
 let mainWindow;
 
@@ -12,6 +13,7 @@ function createWindow() {
     mainWindow.on('close', function() {
         mainWindow = null;
     });
+
 }
 
 app.on('ready', createWindow);
