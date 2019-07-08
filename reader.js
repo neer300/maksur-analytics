@@ -15,9 +15,9 @@ function parseFile(fileName) {
             data.forEach(function(line, index) {
                 if (index > 0) {
                     resultArr.push({
-                        time: line[0],
-                        metal_loss: line[2],
-                        temperature: line[3]
+                        time: new Date(line[0]),
+                        metal_loss: parseFloat(line[2]),
+                        temperature: parseFloat(line[3])
                     });
                 }
             });

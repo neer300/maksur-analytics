@@ -1,5 +1,4 @@
-const { app, BrowserWindow } =  require('electron');
-
+const { app, BrowserWindow } = require('electron');
 
 let mainWindow;
 
@@ -9,11 +8,11 @@ function createWindow() {
         height: 480,
     });
     mainWindow.webContents.openDevTools();
+    mainWindow.maximize();
     mainWindow.loadFile('index.html');
     mainWindow.on('close', function() {
         mainWindow = null;
     });
-
 }
 
 app.on('ready', createWindow);
