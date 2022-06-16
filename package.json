@@ -13,6 +13,6 @@
   "author": "Neeraj Joshi",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^2.0.9"
+    "electron": "^15.5.5"
   }
 }
